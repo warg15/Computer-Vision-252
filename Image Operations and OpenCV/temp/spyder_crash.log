@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/femw90/opt/anaconda3/lib/python3.7/site-packages/spyder/app/mainwindow.py", line 3285, in main
+    mainwindow = run_spyder(app, options, args)
+  File "/Users/femw90/opt/anaconda3/lib/python3.7/site-packages/spyder/app/mainwindow.py", line 3150, in run_spyder
+    main.post_visible_setup()
+  File "/Users/femw90/opt/anaconda3/lib/python3.7/site-packages/spyder/app/mainwindow.py", line 1257, in post_visible_setup
+    self.editor.setup_open_files()
+  File "/Users/femw90/opt/anaconda3/lib/python3.7/site-packages/spyder/plugins/editor.py", line 2714, in setup_open_files
+    self.load(filenames)
+  File "/Users/femw90/opt/anaconda3/lib/python3.7/site-packages/spyder/plugins/editor.py", line 1942, in load
+    finfo = self.editorstacks[0].load(filename, set_current=False)
+  File "/Users/femw90/opt/anaconda3/lib/python3.7/site-packages/spyder/widgets/editor.py", line 2251, in load
+    text, enc = encoding.read(filename)
+  File "/Users/femw90/opt/anaconda3/lib/python3.7/site-packages/spyder/utils/encoding.py", line 249, in read
+    text, encoding = decode( open(filename, 'rb').read() )
+PermissionError: [Errno 1] Operation not permitted: '/Users/femw90/Downloads/colmanECE208.py'
